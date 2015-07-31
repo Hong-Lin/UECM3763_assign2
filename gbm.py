@@ -25,6 +25,7 @@ p.title('5 realizations of the GBM')
 p.show()
 
 S3 = p.array(S[:,-1])
+
 print ('Expectation value of S(3) =', np.mean(S3))
 print ('Variance of S(3) =',np.var(S3))
 
